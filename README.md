@@ -124,6 +124,50 @@ list(intervalo)
 - range(1,10):cria um sequencia de valores de 1 a 9 (não inclusivo)
 - range (10,0,-1) : cria uma sequencia descrecente
 
+### Python - Condicionais
+
+Condicionais são estruturas logicas, que executam um determinado bloco de código caso a condição passada seja verdade
+
+- if,elif, else: no python temos essa estrutura lógica para executar um determinado código dependendo das suas condições
+
+```python:
+
+idade = 17
+
+if idade >=18:
+    print("pode dirigir")
+else:
+    print("Não pode dirigir ainda")
+```
+
+### Python - Loops
+
+- com os loops repetimos um determinado código enquanto as condições passadas forem verdade
+
+- for: a repetição é feita de acordo com o "tamanho" de um item(arrays,sets,dicionrios)
+```python:
+
+item = [1,2,3,4,5,6]
+
+for i in item:
+    faça algo
+
+# i == conjunto de itens que pdemos iterar
+```
+
+- while: não tem uma quantidade de repetição definida
+
+```python:
+
+numero = 0
+while(numero <100):
+    print(numero)
+    numero += 1
+
+
+# loop baseado numa condição
+```
+
 
 
 
